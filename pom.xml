@@ -7,6 +7,13 @@
     <groupId>CloudMicroService</groupId>
     <artifactId>CloudMicroService</artifactId>
     <version>1.0-SNAPSHOT</version>
-
+    <packaging>pom</packaging>
+    <modules>
+        <module>config-server</module>
+        <module>eureka-service</module>
+        <module>hystrix-dashboard</module>
+        <module>Tutorial-API</module>
+        <module>tutorial-client</module>
+    </modules>
 
 </project>
