@@ -14,6 +14,7 @@
         <module>hystrix-dashboard</module>
         <module>Tutorial-API</module>
         <module>tutorial-client</module>
+        <module>zipkin-server</module>
     </modules>
 
 </project>

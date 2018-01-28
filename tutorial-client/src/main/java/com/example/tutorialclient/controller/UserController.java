@@ -29,8 +29,6 @@ public class UserController {
     @Autowired
     private RestTemplate restTemplate;
 
-    @Autowired
-    private Source source;
 
     public Collection<String> getNamesFallback() {
         return new ArrayList<>();
